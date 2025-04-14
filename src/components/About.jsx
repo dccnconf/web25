@@ -60,24 +60,21 @@ export default function About({ topics }) {
               also appear as a stand-alone volume of selected extended papers published by Springer
               (indexed in Scopus and Web of Science).
             </p>
-            {/*<p className="md:text-xl">*/}
-            {/*  Authors of the best selected papers presented at DCCN, recommended by the Program Committee,*/}
-            {/*  will be invited to submit their extended papers to the Special Issues of the MDPI “Mathematics” journal (Q1, WoS, Scopus),*/}
-            {/*  MDPI "Sensors" journal (Q1, WoS, Scopus) and MDPI "Future Internet" journal (Q2, WoS, Scopus).*/}
-            {/*  All submitted manuscripts will be screened by the editorial office of the corresponding journals and peer reviewed according*/}
-            {/*  to the usual standards of these journals.*/}
-            {/*</p>*/}
-            {/*<div className="flex flex-wrap px-4 items-center justify-center gap-4 mt-8">*/}
-            {/*  <a href="https://www.mdpi.com/journal/mathematics/special_issues/8A8D7ML512" target="_blank" className="w-4/5 mx-auto sm:w-1/4">*/}
-            {/*    <img src="/images/mathematics-logo.png" alt="Mathematics logo" />*/}
-            {/*  </a>*/}
-            {/*  <a href="https://www.mdpi.com/journal/sensors/special_issues/Internet_Mobile_Things_Wireless_Sensor_Networks" target="_blank" className="w-4/5 mx-auto sm:w-1/4">*/}
-            {/*    <img src="/images/sensors-logo.png" alt="Sensors logo" />*/}
-            {/*  </a>*/}
-            {/*  <a href="https://www.mdpi.com/journal/futureinternet/special_issues/BY09I05QOZ" target="_blank" className="w-4/5 mx-auto sm:w-1/4">*/}
-            {/*    <img src="/images/future-internet.png" alt="Future internet logo" />*/}
-            {/*  </a>*/}
-            {/*</div>*/}
+            <p className="md:text-xl">
+              Authors of the best selected papers will be invited to submit their extended papers in Russian to the Special Issues of "Control Sciences" and "Sensors and Systems" journals (VAK RF, Level 4 of the Russian Journal WhiteList) and in English to the Special Issue of "Advances in Systems Science and Applications" journal (Scopus Q3, Level 3 of the Russian Journal WhiteList).
+              All submitted manuscripts will be screened by the editorial office of the corresponding journals and peer reviewed according to the usual standards of these journals.
+            </p>
+            <div className="flex flex-wrap px-4 items-center justify-center gap-4 mt-8">
+              <a href="http://pu.mtas.ru/about/" target="_blank" className="w-3/5 mx-auto sm:w-1/4">
+                <img src="/images/control-sciences.jpg" alt="Control Sciences logo" />
+              </a>
+              <a href="https://sensors-and-systems.ru/" target="_blank" className="w-3/5 mx-auto sm:w-1/4">
+                <img src="/images/datchiki.jpg" alt="Sensors and systems logo" />
+              </a>
+              <a href="https://ijassa.ipu.ru/index.php/ijassa/index" target="_blank" className="w-3/5 mx-auto sm:w-1/4">
+                <img className="w-3/4 m-auto" src="/images/assa.png" alt="ASSA logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
