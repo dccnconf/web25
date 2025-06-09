@@ -4,10 +4,12 @@
   "prices": [{
     "ieeeMember": false,
     "price": 10000,
+    "vat": 20,
     "currency": "RUB"
   }, {
     "ieeeMember": true,
     "price": 8500,
+    "vat": 20,
     "currency": "RUB"
   }]
 }, {
@@ -16,6 +18,7 @@
   "prices": [{
     "ieeeMember": false,
     "price": 1000,
+    "vat": 20,
     "currency": "RUB"
   }, {
     "ieeeMember": true,
@@ -28,10 +31,12 @@
   "prices": [{
     "ieeeMember": false,
     "price": 200,
+    "vat": 20,
     "currency": "EUR"
   }, {
     "ieeeMember": true,
     "price": 170,
+    "vat": 20,
     "currency": "EUR"
   }]
 }, {
