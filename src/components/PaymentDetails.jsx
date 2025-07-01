@@ -6,7 +6,9 @@ const PaymentDetails = ({ className }) => {
       <h3 className="h3">Payment information</h3>
       <p className="md:leading-7 md:text-xl text-gray-700 my-4">
         Payment is possible only in Russian rubles by wire transfer or in cash onsite. For international participants
-        and payment in euro, please contact the Organizing Committee email: org@dccn.ru and nata_cot@mail.ru
+        and payment in euro, please contact the Organizing Committee email: <a href="mailto:org@dccn.ru"
+                                                                               className="text-blue-600 hover:underline">org@dccn.ru</a> and <a
+        href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>
       </p>
 
       <p className="md:leading-7 md:text-xl text-gray-700 my-4">
@@ -109,8 +111,7 @@ const PaymentDetails = ({ className }) => {
           лица участника.
           В этом случае счет на оплату оргвзноса выставляется на юридическое лицо, договор и акт оформляются с
           организацией участника.
-          Для выставления счета необходимо обратиться к Котельниковой Наталье Николаевне nata_cot@mail.ru, выслав
-          реквизиты организации и контакты бухгалтерии.
+          Для выставления счета необходимо обратиться к Котельниковой Наталье Николаевне <a href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>, выслав реквизиты организации и контакты бухгалтерии.
         </p>
       </div>
 
@@ -122,8 +123,8 @@ const PaymentDetails = ({ className }) => {
           legal entity.
           In this case, the invoice for the registration fee is issued to the legal entity, the agreement and act are
           drawn up with the participant's organization.
-          To issue an invoice, please contact Natalia Kotelnikova nata_cot@mail.ru, sending the organization's details
-          and the accounting department contacts.
+          To issue an invoice, please contact Natalia Kotelnikova <a href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>, sending the
+          organization's details and the accounting department contacts.
         </p>
       </div>
 
