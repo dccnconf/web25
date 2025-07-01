@@ -1,19 +1,35 @@
 import React from "react";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
 
 const Fees = ({ fees, className = "" }) => {
   return (
     <div className={className}>
       <p className="md:leading-7 md:text-xl text-gray-700">
-        At least one author per accepted paper must pay the registration fee and present the paper in the conference session where the paper is scheduled. Please note, that once the registration payment is done, <span className="text-red-800 font-bold">no refund is available</span>.
+        At least one author per accepted paper must pay the registration fee and present the paper in the conference
+        session where the paper is scheduled. Please note, that once the registration payment is done, <span
+        className="text-red-800 font-bold">no refund is available</span>.
         {/*Please note, that once the registration payment is done, <span className="text-red-800 font-bold">no refund is available</span>.*/}
       </p>
+
+      <div className="mt-8">
+        <a href="/downloads/DCCN2025_FEES.pdf"
+           target="_blank"
+           className="text-blue-500 hover:underline text-lg"
+        >
+          <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-3"/>
+          DCCN2025_FEES.PDF
+        </a>
+      </div>
+
       <p className="md:leading-7 md:text-xl text-gray-700 mt-8">
-        Registration fees are waived for invited keynote speakers and for invited reviewers. The reviewers undertake to carefully and professionally evaluate at least 5 submitted manuscripts in an objective and impartial manner.
+        Registration fees are waived for invited keynote speakers and for invited reviewers. The reviewers undertake to
+        carefully and professionally evaluate at least 5 submitted manuscripts in an objective and impartial manner.
       </p>
       <p className="md:leading-7 md:text-xl text-gray-700 mt-8">
         Registration fees below include VAT tax 20%.
       </p>
-      <FeesTable fees={fees} className="my-12" />
+      <FeesTable fees={fees} className="my-12"/>
       {/*<h3 className="h3 mt-12">Payment information</h3>*/}
       {/*<p className="md:leading-7 md:text-xl text-gray-700 mt-8">*/}
       {/*  To pay the registration fee (online), please follow the  <a href="https://portal.pfur.ru:4443/Free/OfferPayEn.aspx?num=3224231001446" target="_blank" className="text-blue-500 hover:underline">link</a>.*/}
@@ -28,7 +44,7 @@ const Fees = ({ fees, className = "" }) => {
   )
 };
 
-export const FeesTable = ({ fees, className = "" }) => {
+export const FeesTable = ({fees, className = ""}) => {
   // First we need to order prices by IEEE membership:
   for (const record of fees) {
     record.prices.sort((a, b) => (!a.ieeeMember && b.ieeeMember) ? -1 : (!!a.ieeeMember === !!b.ieeeMember) ? 0 : 1);

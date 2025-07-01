@@ -7,8 +7,7 @@ const PaymentDetails = ({ className }) => {
       <p className="md:leading-7 md:text-xl text-gray-700 my-4">
         Payment is possible only in Russian rubles by wire transfer or in cash onsite. For international participants
         and payment in euro, please contact the Organizing Committee email: <a href="mailto:org@dccn.ru"
-                                                                               className="text-blue-600 hover:underline">org@dccn.ru</a> and <a
-        href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>
+                                                                               className="text-blue-600 hover:underline">org@dccn.ru</a> and <a href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>
       </p>
 
       <p className="md:leading-7 md:text-xl text-gray-700 my-4">
@@ -61,7 +60,7 @@ const PaymentDetails = ({ className }) => {
           </tbody>
         </table>
 
-        <p className="mt-4">Главный бухгалтер: Котельникова Наталья Николаевна, Тел.: 8-985-293-97-07, Почтовый адрес:
+        <p className="mt-4">Главный бухгалтер: Котельникова Наталья Николаевна, <a href="mailto:nata_cot@mail.ru" className="text-blue-600 hover:underline">nata_cot@mail.ru</a>, Почтовый адрес:
           117525, г. Москва, Сумской проезд, д. 31, корп. 2, кв. 80
         </p>
       </div>
