@@ -84,6 +84,8 @@ const getProgramLinks = () => [
 ];
 
 const getSupportLinks = () => [
+  <FooterLink href={"/support"} hash="payment" label="Payments" />,
+  <FooterLink href={"/support"} hash="contact" label="Contact Us" />,
 ];
 
 export default Footer;
