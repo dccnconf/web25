@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "krishnamoorthy",
+    "name": "Achyutha Krishnamoorthy",
+    "appeal": "Prof.",
+    "country": "India",
+    "affiliations": [
+      {
+        "name": "Cochin University of Science & Technology",
+        "department": null,
+        "city": null,
+        "country": "India",
+        "position": "Professor"
+      },
+      {
+        "name": "CMS College, Centre for Research in Mathematics",
+        "department": null,
+        "city": null,
+        "country": "India",
+        "position": "Honorary Director"
+      }
+    ],
+    "avatar": "/images/avatars/krishn.png"
+  },
+  {
+    "slug": "smelyanskiy",
+    "name": "Ruslan Smelyanskiy",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "avatar": "/images/avatars/smelyanskiy.jpg",
+    "affiliations": [
+      {
+        "name": "Moscow State University",
+        "city": "Moscow",
+        "department": "Computer Systems Department",
+        "country": "Russia",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "levner",
+    "name": "Eugene Levner",
+    "appeal": "Prof.",
+    "country": "Israel",
+    "avatar": "/images/avatars/levner.jpg",
+    "affiliations": [
+      {
+        "name": "Holon Institute of Technology",
+        "department": null,
+        "city": null,
+        "country": "Israel",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "dharmaraja",
+    "name": "Dharmaraja Selvamuthu",
+    "appeal": "Prof.",
+    "country": "India",
+    "avatar": "/images/avatars/dharmaraja.png",
+    "affiliations": [
+      {
+        "name": "Indian Institute of Technology",
+        "department": "Department of Mathematics",
+        "city": null,
+        "country": "India",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "kumar",
+    "name": "Neeraj Kumar",
+    "appeal": "Prof.",
+    "country": "India",
+    "noInfo": true,
+    "avatar": "/images/avatars/kumar.png",
+    "affiliations": [
+      {
+        "name": "Thapar Institute of Engineering & Technology",
+        "department": "Department of Computer Science and Engineering",
+        "city": null,
+        "country": "India",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "rykov",
+    "name": "Vladimir Rykov",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "avatar": "/images/avatars/rykov.jpg",
+    "affiliations": [
+      {
+        "name": "RUDN University",
+        "department": "Department of Applied Informatics and Probability Theory",
+        "city": null,
+        "country": "Russia",
+        "position": "Professor"
+      },
+      {
+        "name": "Russian State University of Oil and Gas (Gubkin University)",
+        "department": "Department of Applied Mathematics",
+        "city": null,
+        "country": "Russia",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "samouylov",
+    "name": "Konstantin Samouylov",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "avatar": "/images/avatars/samouylov_author.png",
+    "noInfo": true,
+    "affiliations": [
+      {
+        "name": "RUDN University, Institute of Applied Mathematics and Telecommunications",
+        "department": null,
+        "city": null,
+        "country": "Russia",
+        "position": "Professor"
+      }
+    ]
+  }
+]

@@ -56,9 +56,9 @@ const SpeakerName = ({ speaker, enableLink }) => {
   if (enableLink) {
     return (
       <Link href="/keynotes/[slug]" as={`/keynotes/${speaker.slug}`}>
-        <a className={`${commonClassName} ${customClassName}`}>
+        <span className={`${commonClassName} ${customClassName}`}>
           {speaker.appeal} {speaker.name}
-        </a>
+        </span>
       </Link>
     );
   }
