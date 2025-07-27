@@ -185,11 +185,11 @@ const ConferenceMenu = ({onClick}) => (
     {/*  comment="Springer Proceedings"*/}
     {/*  onClick={onClick}*/}
     {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/" as="/#keynotes" icon={faStar} text="Keynote Speakers"*/}
-    {/*  comment="Read about our keynote speakers"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
+    <NavbarDropdownMenuItem
+      href="/" as="/#keynotes" icon={faStar} text="Keynote Speakers"
+      comment="Read about our keynote speakers"
+      onClick={onClick}
+    />
     <NavbarDropdownMenuItem
       href="/" as="/#timeline" icon={faCalendarDay} text="Timeline"
       comment="When the submission ends, conference starts and other important dates"
@@ -214,15 +214,15 @@ const ConferenceMenu = ({onClick}) => (
 );
 
 
-// const AuthorsMenu = ({onClick}) => (
-//   <>
-//     <NavbarDropdownMenuItem
-//       href="/authors" icon={faPenNib} text="Call for Papers" iconClassName="mx-2"
-//       comment="Authors guidelines, requirements and conference topics"
-//       onClick={onClick}
-//     />
-//   </>
-// );
+const AuthorsMenu = ({onClick}) => (
+  <>
+    <NavbarDropdownMenuItem
+      href="/authors" icon={faPenNib} text="Call for Papers" iconClassName="mx-2"
+      comment="Authors guidelines, requirements and conference topics"
+      onClick={onClick}
+    />
+  </>
+);
 
 
 const ProgramMenu = ({onClick}) => (
