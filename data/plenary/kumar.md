@@ -1,3 +1,4 @@
 ---
-title: ""
+title: "Quantum Key Distribution for Blockchain  Networks Scenarios: Current Trends and Future Research Directions"
 ---
+Quantum Key Distribution (QKD) is a secure communication which uses the principles of quantum mechanicsto enable two parties to produce a shared, random secret key which can then be used to encrypt and decrypt messages. Unlike classical encryption, QKD is provably secure against any computational power, including future quantum computers.  It has applications in Quantum-safe banking and finance communication, Government and military data protection, Satellite-based QKD. It has multiple benefits starting from Quantum No-Cloning, Heisenberg Uncertainty Principle leading to eavesdropping detectable and Quantum Entanglement. In this talk I will discuss how QKD has been used in a wide range of applications for secure data transmissions across the border.  Moreover, constraints and challenges to implement QKD will also be discussed in detail. 
