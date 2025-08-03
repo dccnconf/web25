@@ -39,10 +39,28 @@
     ]
   },
   {
+    "slug": "vishn",
+    "name": "Vladimir M. Vishnevsky",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "authors": ["vishn", "levner"],
+    "avatar": "/images/avatars/vishnevsky.jpg",
+    "affiliations": [
+      {
+        "name": "Institute of Control Sciences",
+        "department": null,
+        "city": null,
+        "country": "Russia",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
     "slug": "levner",
     "name": "Eugene Levner",
     "appeal": "Prof.",
     "country": "Israel",
+    "authors": ["vishn", "levner"],
     "avatar": "/images/avatars/levner.jpg",
     "affiliations": [
       {
@@ -75,7 +93,7 @@
     "name": "Neeraj Kumar",
     "appeal": "Prof.",
     "country": "India",
-    "avatar": "/images/avatars/kumar.png",
+    "avatar": "/images/avatars/kumar.jpg",
     "affiliations": [
       {
         "name": "Thapar Institute of Engineering & Technology",
@@ -111,7 +129,7 @@
   },
   {
     "slug": "samouylov",
-    "name": "Konstantin Samouylov",
+    "name": "Konstantin E. Samouylov",
     "appeal": "Prof.",
     "country": "Russia",
     "avatar": "/images/avatars/samouylov_author.png",

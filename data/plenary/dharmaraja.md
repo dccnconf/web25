@@ -1,3 +1,5 @@
 ---
 title: "Reliability Analysis of High-Altitude Platform Systems"
 ---
+
+This paper presents a comprehensive study on the dependability and reliability analysis of high-altitude platforms. The growing interest in deploying HAPs as relay nodes to bridge terrestrial and satellite networks has contributed to the advancement of integrated satellite-aerial-terrestrial (SAT) networks. To assess the dependability of such networks, a stochastic model is developed that incorporates the essential characteristics of satellite, HAP, and terrestrial components. We have formulated different stochastic models which are vital for the evolution of 5G, 6G, and beyond. The study explores methodologies, including Markov and semi-Markov processes, as well as simulation-based approaches, to analyze complex system behaviors and evaluate critical reliability and performance metrics. The effects of various component failure parameters on overall system performance are illustrated using graphical analysis. Finally, the analytical results derived from the model are validated through discrete-event simulation, ensuring the reliability of the proposed approach.

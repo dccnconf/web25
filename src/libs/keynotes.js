@@ -65,6 +65,7 @@ export const getKeynote = async (authorSlug) => {
   //const schedule = loadJSONFile("plenary.json");
   const schedule = {};
   let lecture = {};
+  const authors = speaker.authors ? speaker.authors.map(author => getSpeaker({slug: author})) : null;
 
   // Find the lecture:
   // for (const part of schedule.parts) {
@@ -93,6 +94,7 @@ export const getKeynote = async (authorSlug) => {
     bio: bioContentHtml.contents,
     coauthor,
     speaker,
+    authors,
     lecture
   }
 };

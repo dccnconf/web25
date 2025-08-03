@@ -9,6 +9,8 @@ import SpeakerSmallCard from "../../components/SpeakerSmallCard";
 
 // TODO add timetable and duration for each speaker
 const KeynotePage = ({ keynote }) => {
+  const authors = keynote.authors || [keynote.speaker];
+
   return (
     <Layout pageTitle={"Keynote | DCCN'2022"} active="conference">
       {
@@ -22,9 +24,9 @@ const KeynotePage = ({ keynote }) => {
               <h1 className="text-2xl md:text-4xl text-center md:text-left leading-10 font-extrabold">
                 {keynote.title}
               </h1>
-
-              <SpeakerSmallCard speaker={keynote.speaker} className="mt-4 font-medium text-gray-600" />
-              {keynote.coauthor ? <SpeakerSmallCard speaker={keynote.coauthor} className="mt-4 font-medium text-gray-600" /> : null }
+              { authors.map((author => <SpeakerSmallCard speaker={author} className="mt-4 font-medium text-gray-600" />))  }
+              {/*<SpeakerSmallCard speaker={keynote.speaker} className="mt-4 font-medium text-gray-600" />*/}
+              {/*{keynote.coauthor ? <SpeakerSmallCard speaker={keynote.coauthor} className="mt-4 font-medium text-gray-600" /> : null }*/}
 
               {/*<div className="mt-3 border-b-2 font-extrabold text-indigo-600 text-lg">*/}
               {/*  <Moment format="HH:mm, DD MMM. YYYY">*/}
