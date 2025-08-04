@@ -43,6 +43,7 @@
     "name": "Vladimir M. Vishnevsky",
     "appeal": "Prof.",
     "country": "Russia",
+    "hidden": true,
     "authors": ["vishn", "levner"],
     "avatar": "/images/avatars/vishnevsky.jpg",
     "affiliations": [
@@ -62,6 +63,7 @@
     "country": "Israel",
     "authors": ["vishn", "levner"],
     "avatar": "/images/avatars/levner.jpg",
+    "coauthor": "vishn",
     "affiliations": [
       {
         "name": "Holon Institute of Technology",
@@ -106,7 +108,7 @@
   },
   {
     "slug": "rykov",
-    "name": "Vladimir Rykov",
+    "name": "Vladimir V. Rykov",
     "appeal": "Prof.",
     "country": "Russia",
     "avatar": "/images/avatars/rykov.jpg",

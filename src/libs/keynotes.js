@@ -60,7 +60,7 @@ export const getKeynote = async (authorSlug) => {
   const plenary = loadMarkdown(authorSlug, 'plenary');
   const speakerBio = loadMarkdown(authorSlug, 'speakers');
   const speaker = getSpeaker({slug: authorSlug});
-  const coauthor = speaker.coauthor || null;
+  const coauthor = speaker.coauthor ? getSpeaker({slug: speaker.coauthor }) : null;
   // TODO add plenary schedule
   //const schedule = loadJSONFile("plenary.json");
   const schedule = {};
@@ -87,11 +87,16 @@ export const getKeynote = async (authorSlug) => {
     .use(html)
     .process(speakerBio.content);
 
+  const coauthorBioHtml = coauthor ? await remark()
+    .use(html)
+    .process(loadMarkdown(coauthor.slug, 'speakers').content) : null;
+
 
   return {
     title: plenary.data.title,
     abstract: plenaryContentHtml.contents,
     bio: bioContentHtml.contents,
+    coauthorBio: coauthorBioHtml ? coauthorBioHtml.contents : null,
     coauthor,
     speaker,
     authors,

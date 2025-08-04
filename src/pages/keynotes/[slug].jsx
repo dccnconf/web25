@@ -9,7 +9,7 @@ import SpeakerSmallCard from "../../components/SpeakerSmallCard";
 
 // TODO add timetable and duration for each speaker
 const KeynotePage = ({ keynote }) => {
-  const authors = keynote.authors || [keynote.speaker];
+  const authors = keynote.coauthor ? [keynote.speaker, keynote.coauthor] : [keynote.speaker];
 
   return (
     <Layout pageTitle={"Keynote | DCCN'2022"} active="conference">
@@ -59,6 +59,12 @@ const KeynotePage = ({ keynote }) => {
                     <div dangerouslySetInnerHTML={{__html: keynote.bio}} />
                   </div>
                 </div>
+                {keynote.coauthor && <div className="flex-grow w-full mt-12">
+                  <KeynoteSpeakerCard speaker={keynote.coauthor} enableLink={false}/>
+                  <div className="mt-12 md:text-lg leading-tight text-gray-800 markdown-box">
+                    <div dangerouslySetInnerHTML={{__html: keynote.coauthorBio}}/>
+                  </div>
+                </div>}
               </div>
             </div>
           </section>
@@ -68,7 +74,7 @@ const KeynotePage = ({ keynote }) => {
   );
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = async ({params}) => {
   const keynote = await getKeynote(params.slug);
   return {
     props: {
