@@ -16,7 +16,7 @@ const KeynotePage = ({ keynote }) => {
       {
         keynote && (
           <section className="container mx-auto my-12 py-12">
-            <article className="container mx-auto md:w-2/3 pb-12 p-8">
+            {keynote.title && <article className="container mx-auto md:w-2/3 pb-12 p-8">
               <p className="mb-1 font-extrabold md:text-2xl text-indigo-600">
                 <FontAwesomeIcon icon={faStar} />
                 <span className="ml-2">Keynote</span>
@@ -46,7 +46,7 @@ const KeynotePage = ({ keynote }) => {
                   </a> : null
               }
 
-            </article>
+            </article>}
 
             <div className="container mx-auto mt-12 bg-indigo-100">
               <div className="container md:w-2/3 mx-auto p-8 items-start">

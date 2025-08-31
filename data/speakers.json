@@ -145,5 +145,21 @@
         "position": "Professor"
       }
     ]
+  },
+  {
+    "slug": "dimitrov",
+    "name": "Boyan Dimitrov",
+    "appeal": "Prof.",
+    "country": "Bulgaria",
+    "avatar": "/images/avatars/dimitrov.jpg",
+    "affiliations": [
+      {
+        "name": "Sofia University",
+        "department": "Faculty of Mathematics and Computer Science",
+        "city": null,
+        "country": "Sofia University",
+        "position": "Professor"
+      }
+    ]
   }
 ]
