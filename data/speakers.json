@@ -150,14 +150,14 @@
     "slug": "dimitrov",
     "name": "Boyan Dimitrov",
     "appeal": "Prof.",
-    "country": "Bulgaria",
+    "country": "USA",
     "avatar": "/images/avatars/dimitrov.jpg",
     "affiliations": [
       {
-        "name": "Sofia University",
-        "department": "Faculty of Mathematics and Computer Science",
+        "name": "Kettering University",
+        "department": null,
         "city": null,
-        "country": "Sofia University",
+        "country": "USA",
         "position": "Professor"
       }
     ]
