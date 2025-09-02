@@ -18,7 +18,8 @@
   "date": "10.07.2025"
 },{
   "event": "Fee payment deadline",
-  "date": "01.08.2025"
+  "oldDate": "01.08.2025",
+  "date": "15.09.2025"
 }, {
   "event": "Conference in Moscow",
   "important": true,
