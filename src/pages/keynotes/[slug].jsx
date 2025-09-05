@@ -24,7 +24,7 @@ const KeynotePage = ({ keynote }) => {
               <h1 className="text-2xl md:text-4xl text-center md:text-left leading-10 font-extrabold">
                 {keynote.title}
               </h1>
-              { authors.map((author => <SpeakerSmallCard speaker={author} className="mt-4 font-medium text-gray-600" />))  }
+              { authors.map((author => <SpeakerSmallCard key={author.slug} speaker={author} className="mt-4 font-medium text-gray-600" />))  }
               {/*<SpeakerSmallCard speaker={keynote.speaker} className="mt-4 font-medium text-gray-600" />*/}
               {/*{keynote.coauthor ? <SpeakerSmallCard speaker={keynote.coauthor} className="mt-4 font-medium text-gray-600" /> : null }*/}
 
