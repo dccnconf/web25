@@ -130,23 +130,6 @@
     ]
   },
   {
-    "slug": "samouylov",
-    "name": "Konstantin E. Samouylov",
-    "appeal": "Prof.",
-    "country": "Russia",
-    "avatar": "/images/avatars/samouylov_author.png",
-    "noInfo": true,
-    "affiliations": [
-      {
-        "name": "RUDN University, Institute of Applied Mathematics and Telecommunications",
-        "department": null,
-        "city": null,
-        "country": "Russia",
-        "position": "Professor"
-      }
-    ]
-  },
-  {
     "slug": "dimitrov",
     "name": "Boyan Dimitrov",
     "appeal": "Prof.",

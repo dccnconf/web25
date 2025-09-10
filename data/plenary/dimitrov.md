@@ -24,3 +24,10 @@ It will lose the memory at any age mc integer multiple to the constant c for inf
 times $m=2,3, 4,…$. For this reason, we named these distributions ALM distributions. And we
 found the mathematical form of this class of probability distributions, established numerous
 mathematical presentations, physical properties, and found various practical applications.
+
+<b class="text-indigo-600"><a href="/downloads/Dimitrov_abstract.pdf" target="_blank">REFERENCES</a></b>
+
+A lectrure "Long life with Mathematics"  on the topic of this talk, presented at Kettering university, is available at the link below. 
+
+<b class="text-indigo-600"><a href="https://www.youtube.com/watch?v=2GouA8Y1oJA" target="_blank">https://www.youtube.com/watch?v=2GouA8Y1oJA</a></b>
+

@@ -82,14 +82,14 @@ export default function Navbar({active = 'conference'}) {
 
               <NavbarLink text="Authors" isActive={active === 'authors'} href="/authors"/>
 
-              {/*<NavbarDropdownItem*/}
-              {/*  isActive={active === 'program'}*/}
-              {/*  text="Program"*/}
-              {/*  isShown={isShown.program}*/}
-              {/*  setIsShown={shown => setIsMenuShown('program', shown)}*/}
-              {/*>*/}
-              {/*  <ProgramMenu onClick={closeAll}/>*/}
-              {/*</NavbarDropdownItem>*/}
+              <NavbarDropdownItem
+                isActive={active === 'program'}
+                text="Program"
+                isShown={isShown.program}
+                setIsShown={shown => setIsMenuShown('program', shown)}
+              >
+                <ProgramMenu onClick={closeAll}/>
+              </NavbarDropdownItem>
 
               <NavbarDropdownItem
                 isActive={active === 'support'}
@@ -148,7 +148,7 @@ export default function Navbar({active = 'conference'}) {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 gap-y-4">
                       <NavbarLink text="Conference" href="/" onClick={closeAll}/>
                       <NavbarLink text="Authors" href="/authors" onClick={closeAll}/>
-                      {/*<NavbarLink text="Program" href="/program" onClick={closeAll}/>*/}
+                      <NavbarLink text="Program" href="/program" onClick={closeAll}/>
                       <NavbarLink text="Contact Us" href="/support" onClick={closeAll}/>
                     </div>
                     <div className="space-y-6"/>
@@ -232,26 +232,26 @@ const ProgramMenu = ({onClick}) => (
       comment="General schedule of DCCN'2025 conference"
       onClick={onClick}
     />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#plenary" icon={faStar} text="Plenary session"
-      comment="Learn more about the plenary session, keynote speakers and presentations"
-      onClick={onClick}
-    />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"
-      comment="General sessions schedule for Computer and Communication Networks track"
-      onClick={onClick}
-    />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"
-      comment="General sessions schedule for Analytical Modeling of Distributed Systems track"
-      onClick={onClick}
-    />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"
-      comment="General sessions schedule for Distributed Systems Applications track"
-      onClick={onClick}
-    />
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#plenary" icon={faStar} text="Plenary session"*/}
+    {/*  comment="Learn more about the plenary session, keynote speakers and presentations"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"*/}
+    {/*  comment="General sessions schedule for Computer and Communication Networks track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"*/}
+    {/*  comment="General sessions schedule for Analytical Modeling of Distributed Systems track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"*/}
+    {/*  comment="General sessions schedule for Distributed Systems Applications track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
   </>
 );
 
