@@ -1,0 +1,1053 @@
+{
+  "days": [
+    {
+      "date": "2025-09-22",
+      "description": "Conference opening day and plenary session",
+      "plenary": true,
+      "online": {
+        "links": [],
+        "video": null
+      },
+      "intervals": [
+        {
+          "startTime": "2025-09-22T09:00+03:00",
+          "endTime": "2025-09-22T10:00+03:00",
+          "type": "sessions",
+          "label": "Registration (Reception, Ground floor)"
+        },
+        {
+          "startTime": "2025-09-22T10:00+03:00",
+          "endTime": "2025-09-22T10:10+03:00",
+          "type": "special",
+          "label": "Conference Opening (Small conference hall)"
+        },
+        {
+          "startTime": "2025-09-22T10:10+03:00",
+          "endTime": "2025-09-22T10:20+03:00",
+          "type": "special",
+          "label": "Welcome speech"
+        },
+        {
+          "startTime": "2025-09-22T10:20+03:00",
+          "endTime": "2025-09-22T11:40+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-22T11:40+03:00",
+          "endTime": "2025-09-22T12:00+03:00",
+          "type": "break",
+          "label": "Coffee break"
+        },
+        {
+          "startTime": "2025-09-22T12:00+03:00",
+          "endTime": "2025-09-22T13:20+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-22T13:20+03:00",
+          "endTime": "2025-09-22T14:00+03:00",
+          "type": "break",
+          "label": "Break"
+        },
+        {
+          "startTime": "2025-09-22T14:00+03:00",
+          "endTime": "2025-09-22T15:20+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-22T15:20+03:00",
+          "endTime": "2025-09-22T15:40+03:00",
+          "type": "break",
+          "label": "Break"
+        },
+        {
+          "startTime": "2025-09-22T15:40+03:00",
+          "endTime": "2025-09-22T16:20+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-23",
+      "description": "Conference session",
+      "online": {
+        "links": []
+      },
+      "intervals": [
+        {
+          "startTime": "2025-09-23T09:00+03:00",
+          "endTime": "2025-09-23T10:00+03:00",
+          "type": "reg",
+          "label": "Registration (Reception, Ground floor)"
+        },
+        {
+          "startTime": "2025-09-23T10:00+03:00",
+          "endTime": "2025-09-23T11:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.1.1"
+            },
+            {
+              "slug": "B.1.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-23T11:20+03:00",
+          "endTime": "2025-09-23T11:40+03:00",
+          "type": "break",
+          "label": "Coffee Break"
+        },
+        {
+          "startTime": "2025-09-23T11:40+03:00",
+          "endTime": "2025-09-23T13:00+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.1.1"
+            },
+            {
+              "slug": "B.1.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-23T13:00+03:00",
+          "endTime": "2025-09-23T14:00+03:00",
+          "type": "break",
+          "label": "Break"
+        },
+        {
+          "startTime": "2025-09-23T14:00+03:00",
+          "endTime": "2025-09-23T15:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.1.2"
+            },
+            {
+              "slug": "B.1.2"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-23T15:20+03:00",
+          "endTime": "2025-09-23T15:40+03:00",
+          "type": "break",
+          "label": "Coffee Break"
+        },
+        {
+          "startTime": "2025-09-23T15:40+03:00",
+          "endTime": "2025-09-23T16:40+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.1.2"
+            },
+            {
+              "slug": "B.1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "description": "Conference session",
+      "online": {
+        "links": []
+      },
+      "intervals": [
+        {
+          "startTime": "2025-09-24T09:00+03:00",
+          "endTime": "2025-09-24T10:00+03:00",
+          "type": "reg",
+          "label": "Registration (Reception, Ground floor)"
+        },
+        {
+          "startTime": "2025-09-24T10:00+03:00",
+          "endTime": "2025-09-24T11:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.2.1"
+            },
+            {
+              "slug": "B.2.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-24T11:20+03:00",
+          "endTime": "2025-09-24T11:40+03:00",
+          "type": "break",
+          "label": "Coffee Break"
+        },
+        {
+          "startTime": "2025-09-24T11:40+03:00",
+          "endTime": "2025-09-24T13:00+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.2.1"
+            },
+            {
+              "slug": "B.2.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-24T13:00+03:00",
+          "endTime": "2025-09-24T14:00+03:00",
+          "type": "break",
+          "label": "Break"
+        },
+        {
+          "startTime": "2025-09-24T14:00+03:00",
+          "endTime": "2025-09-24T14:40+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.2.2"
+            },
+            {
+              "slug": "B.2.2"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-24T14:40+03:00",
+          "endTime": "2025-09-24T15:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "B.2.2"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-24T15:20+03:00",
+          "endTime": "2025-09-24T15:40+03:00",
+          "type": "break",
+          "label": "Coffee Break"
+        },
+        {
+          "startTime": "2025-09-24T15:40+03:00",
+          "endTime": "2025-09-24T16:40+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "B.2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "description": "Conference session, Round table and Conference closing day",
+      "online": {
+        "links": [],
+        "video": null
+      },
+      "intervals": [
+        {
+          "startTime": "2025-09-25T09:00+03:00",
+          "endTime": "2025-09-25T10:00+03:00",
+          "type": "reg",
+          "label": "Registration (Reception, Ground floor)"
+        },
+        {
+          "startTime": "2025-09-25T10:00+03:00",
+          "endTime": "2025-09-25T11:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "B.3.1"
+            },
+            {
+              "slug": "C.1.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-25T11:20+03:00",
+          "endTime": "2025-09-25T11:40+03:00",
+          "type": "break",
+          "label": "Coffee Break"
+        },
+        {
+          "startTime": "2025-09-25T11:40+03:00",
+          "endTime": "2025-09-25T12:40+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "B.3.1"
+            },
+            {
+              "slug": "C.1.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-25T12:40+03:00",
+          "endTime": "2025-09-25T13:20+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "C.1.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-25T13:20+03:00",
+          "endTime": "2025-09-25T14:00+03:00",
+          "type": "panel",
+          "label": "Round Table with the participation of young scientists: Future networks 2030, artificial intelligence and big data",
+          "chairs": [
+            {
+              "slug": "vishn"
+            },
+            {
+              "slug": "sam"
+            }
+          ]
+        },
+        {
+          "startTime": "2025-09-25T14:00+03:00",
+          "endTime": "2025-09-25T14:20+03:00",
+          "type": "special",
+          "label": "Conference closing"
+        }
+      ]
+    }
+  ],
+  "chairs": [
+    {
+      "name": "A.Muthanna",
+      "slug": "muth",
+      "appeal": "Dr."
+    },
+    {
+      "name": "Vladimir M. Vishnevsky",
+      "slug": "vishn",
+      "appeal": "Prof.",
+      "affiliations": [
+        {
+          "slug": "ipu"
+        }
+      ],
+      "avatar": "/images/avatars/vishnevsky.jpg"
+    },
+    {
+      "name": "Konstantin E. Samouylov",
+      "slug": "sam",
+      "appeal": "Prof.",
+      "affiliations": [
+        {
+          "slug": "rudn"
+        }
+      ],
+      "avatar": "/images/avatars/samouylov.jpg"
+    },
+    {
+      "name": "Yu. Gaidamaka",
+      "slug": "yug",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Sopin",
+      "slug": "sop",
+      "appeal": "Dr."
+    },
+    {
+      "name": "D. Namiot",
+      "slug": "nam",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Stepanov",
+      "slug": "ste",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Nazarov",
+      "slug": "naz",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Morozov",
+      "slug": "mor",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Efrosinin",
+      "slug": "efr",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Vasilyev",
+      "slug": "vas",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A. Andronov",
+      "slug": "and",
+      "appeal": "Prof"
+    },
+    {
+      "name": "V. Rykov",
+      "slug": "ryk",
+      "appeal": "Prof."
+    },
+    {
+      "name": "T. Atanasova",
+      "slug": "ata",
+      "appeal": "Prof."
+    },
+    {
+      "name": " J. Sztrik",
+      "slug": "szt",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Shchetinin",
+      "slug": "shc",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Kulyabov",
+      "slug": "kul",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Kozyrev",
+      "slug": "koz",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A. Krishnamoorthy",
+      "slug": "kri",
+      "appeal": "Prof."
+    },
+    {
+      "name": "Varghese C. Joshua",
+      "slug": "jos",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Dudin",
+      "slug": "dud",
+      "appeal": "Prof."
+    },
+    {
+      "name": "N. Markovich",
+      "slug": "mar",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Koucheryavy",
+      "slug": "kou",
+      "appeal": "Prof."
+    },
+    {
+      "name": "I. Kochetkova",
+      "slug": "koc",
+      "appeal": "Dr."
+    },
+    {
+      "name": "D. Ostrikova",
+      "slug": "ost",
+      "appeal": "Dr."
+    },
+    {
+      "name": "M. Makolkina",
+      "slug": "mak",
+      "appeal": "Dr."
+    },
+    {
+      "name": "K. Vytovtov",
+      "slug": "vyt",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Barabanova",
+      "slug": "bar",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Markova",
+      "slug": "ema",
+      "appeal": "Dr."
+    },
+    {
+      "name": "M. Gevorkyan",
+      "slug": "gev",
+      "appeal": "Dr."
+    },
+    {
+      "name": "C. Kim",
+      "slug": "kim",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Schetinin",
+      "slug": "sch",
+      "appeal": "Prof."
+    },
+    {
+      "name": "V. Bogatyrev",
+      "slug": "bog",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Moiseeva",
+      "slug": "moi",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A.Mandel",
+      "slug": "man",
+      "appeal": "Prof."
+    },
+    {
+      "name": "O. Semenova",
+      "slug": "sem",
+      "appeal": "Prof."
+    },
+    {
+      "name": "R. Smeliansky",
+      "slug": "smel",
+      "appeal": "Prof."
+    },
+    {
+      "name": "V. Pashkov",
+      "slug": "pash",
+      "appeal": ""
+    },
+    {
+      "name": "V. Begishev",
+      "slug": "begish",
+      "appeal": "Dr."
+    },
+    {
+      "name": "S. Paul",
+      "slug": "paul",
+      "appeal": "Dr."
+    },
+    {
+      "name": "S. Dharmaraja",
+      "slug": "dhar",
+      "appeal": "Prof."
+    },
+    {
+      "name": "R. Nekrasova",
+      "slug": "nekr",
+      "appeal": "Dr."
+    },
+    {
+      "name": "N. Ivanova",
+      "slug": "iva",
+      "appeal": "Dr."
+    },
+    {
+      "name": "E. Fedorova",
+      "slug": "fed",
+      "appeal": "Dr."
+    },
+    {
+      "name": "S. Portnoy",
+      "slug": "port",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Tikhonyuk",
+      "slug": "tikh",
+      "appeal": "Dr."
+    }
+  ],
+  "common": {
+    "lecture": {
+      "duration": {
+        "minutes": 20
+      }
+    }
+  },
+  "sessions": [
+    {
+      "slug": "P.1",
+      "label": "Plenary session"
+    },
+    {
+      "slug": "A.1.1",
+      "name": "A.1.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "smel"
+        },
+        {
+          "slug": "pash"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3329,
+          "startTime": "2025-09-23T10:00+03:00"
+        },
+        {
+          "paperId": 3418,
+          "startTime": "2025-09-23T10:20+03:00"
+        },
+        {
+          "paperId": 3825,
+          "startTime": "2025-09-23T10:40+03:00"
+        },
+        {
+          "paperId": 3380,
+          "startTime": "2025-09-23T11:00+03:00"
+        },
+        {
+          "paperId": 3427,
+          "startTime": "2025-09-23T11:40+03:00"
+        },
+        {
+          "paperId": 3460,
+          "startTime": "2025-09-23T12:00+03:00"
+        },
+        {
+          "paperId": 3382,
+          "startTime": "2025-09-23T12:20+03:00"
+        },
+        {
+          "paperId": 3831,
+          "startTime": "2025-09-23T12:40+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.1.2",
+      "name": "A.1.2",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "muth"
+        },
+        {
+          "slug": "begish"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3383,
+          "startTime": "2025-09-23T14:00+03:00"
+        },
+        {
+          "paperId": 3384,
+          "startTime": "2025-09-23T14:10+03:00"
+        },
+        {
+          "paperId": 3458,
+          "startTime": "2025-09-23T14:40+03:00"
+        },
+        {
+          "paperId": 3377,
+          "startTime": "2025-09-23T15:00+03:00"
+        },
+        {
+          "paperId": 3376,
+          "startTime": "2025-09-23T15:40+03:00"
+        },
+        {
+          "paperId": 3430,
+          "startTime": "2025-09-23T16:00+03:00"
+        },
+        {
+          "paperId": 3323,
+          "startTime": "2025-09-23T16:20+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.2.1",
+      "name": "A.2.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "vishn"
+        },
+        {
+          "slug": "bar"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3333,
+          "startTime": "2025-09-24T10:00+03:00"
+        },
+        {
+          "paperId": 3334,
+          "startTime": "2025-09-24T10:20+03:00"
+        },
+        {
+          "paperId": 3354,
+          "startTime": "2025-09-24T10:40+03:00"
+        },
+        {
+          "paperId": 3285,
+          "startTime": "2025-09-24T11:00+03:00"
+        },
+        {
+          "paperId": 3300,
+          "startTime": "2025-09-24T11:40+03:00"
+        },
+        {
+          "paperId": 3304,
+          "startTime": "2025-09-24T12:00+03:00"
+        },
+        {
+          "paperId": 3306,
+          "startTime": "2025-09-24T12:20+03:00"
+        },
+        {
+          "paperId": 3563,
+          "startTime": "2025-09-24T12:40+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.2.2",
+      "name": "A.2.2",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "vishn"
+        },
+        {
+          "slug": "bar"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3310,
+          "startTime": "2025-09-24T14:00+03:00"
+        },
+        {
+          "paperId": 3426,
+          "startTime": "2025-09-24T14:20+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.1.1",
+      "name": "B.1.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "mar"
+        },
+        {
+          "slug": "paul"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3287,
+          "startTime": "2025-09-23T10:00+03:00"
+        },
+        {
+          "paperId": 3316,
+          "startTime": "2025-09-23T10:20+03:00"
+        },
+        {
+          "paperId": 3317,
+          "startTime": "2025-09-23T10:40+03:00"
+        },
+        {
+          "paperId": 3330,
+          "startTime": "2025-09-23T11:40+03:00"
+        },
+        {
+          "paperId": 3344,
+          "startTime": "2025-09-23T12:00+03:00"
+        },
+        {
+          "paperId": 3701,
+          "startTime": "2025-09-23T12:20+03:00"
+        },
+        {
+          "paperId": 3416,
+          "startTime": "2025-09-23T12:40+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.1.2",
+      "name": "B.1.2",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "moi"
+        },
+        {
+          "slug": "sem"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3839,
+          "startTime": "2025-09-23T14:00+03:00"
+        },
+        {
+          "paperId": 3823,
+          "startTime": "2025-09-23T14:20+03:00"
+        },
+        {
+          "paperId": 3250,
+          "startTime": "2025-09-23T14:40+03:00"
+        },
+        {
+          "paperId": 3322,
+          "startTime": "2025-09-23T15:00+03:00"
+        },
+        {
+          "paperId": 3747,
+          "startTime": "2025-09-23T15:40+03:00"
+        },
+        {
+          "paperId": 3419,
+          "startTime": "2025-09-23T16:00+03:00"
+        },
+        {
+          "paperId": 3369,
+          "startTime": "2025-09-23T16:20+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.2.1",
+      "name": "B.2.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "dhar"
+        },
+        {
+          "slug": "nekr"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3673,
+          "startTime": "2025-09-24T10:00+03:00"
+        },
+        {
+          "paperId": 3428,
+          "startTime": "2025-09-24T10:20+03:00"
+        },
+        {
+          "paperId": 3422,
+          "startTime": "2025-09-24T10:40+03:00"
+        },
+        {
+          "paperId": 3328,
+          "startTime": "2025-09-24T11:00+03:00"
+        },
+        {
+          "paperId": 3325,
+          "startTime": "2025-09-24T11:40+03:00"
+        },
+        {
+          "paperId": 3421,
+          "startTime": "2025-09-24T12:00+03:00"
+        },
+        {
+          "paperId": 3320,
+          "startTime": "2025-09-24T12:20+03:00"
+        },
+        {
+          "paperId": 3366,
+          "startTime": "2025-09-24T12:40+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.2.2",
+      "name": "B.2.2",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "yug"
+        },
+        {
+          "slug": "iva"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3364,
+          "startTime": "2025-09-24T14:00+03:00"
+        },
+        {
+          "paperId": 3365,
+          "startTime": "2025-09-24T14:20+03:00"
+        },
+        {
+          "paperId": 3405,
+          "startTime": "2025-09-24T14:40+03:00"
+        },
+        {
+          "paperId": 3423,
+          "startTime": "2025-09-24T15:00+03:00"
+        },
+        {
+          "paperId": 3378,
+          "startTime": "2025-09-24T15:40+03:00"
+        },
+        {
+          "paperId": 3379,
+          "startTime": "2025-09-24T16:00+03:00"
+        },
+        {
+          "paperId": 3353,
+          "startTime": "2025-09-24T16:20+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B.3.1",
+      "name": "B.3.1",
+      "track": {
+        "slug": "trb"
+      },
+      "chairs": [
+        {
+          "slug": "sam"
+        },
+        {
+          "slug": "fed"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3321,
+          "startTime": "2025-09-25T10:00+03:00"
+        },
+        {
+          "paperId": 3282,
+          "startTime": "2025-09-25T10:20+03:00"
+        },
+        {
+          "paperId": 3305,
+          "startTime": "2025-09-25T10:40+03:00"
+        },
+        {
+          "paperId": 3362,
+          "startTime": "2025-09-25T10:40+03:00"
+        },
+        {
+          "paperId": 3336,
+          "startTime": "2025-09-25T11:40+03:00"
+        },
+        {
+          "paperId": 3327,
+          "startTime": "2025-09-25T12:00+03:00"
+        },
+        {
+          "paperId": 3312,
+          "startTime": "2025-09-25T12:00+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.1.1",
+      "name": "C.1.1",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "port"
+        },
+        {
+          "slug": "tikh"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 3604,
+          "startTime": "2025-09-25T10:00+03:00"
+        },
+        {
+          "paperId": 3361,
+          "startTime": "2025-09-25T10:20+03:00"
+        },
+        {
+          "paperId": 3247,
+          "startTime": "2025-09-25T10:40+03:00"
+        },
+        {
+          "paperId": 3284,
+          "startTime": "2025-09-25T11:00+03:00"
+        },
+        {
+          "paperId": 3340,
+          "startTime": "2025-09-25T11:40+03:00"
+        },
+        {
+          "paperId": 3339,
+          "startTime": "2025-09-25T12:00+03:00"
+        },
+        {
+          "paperId": 3429,
+          "startTime": "2025-09-25T12:20+03:00"
+        },
+        {
+          "paperId": 3307,
+          "startTime": "2025-09-25T12:40+03:00"
+        },
+        {
+          "paperId": 3742,
+          "startTime": "2025-09-25T13:00+03:00"
+        }
+      ]
+    }
+  ]
+}

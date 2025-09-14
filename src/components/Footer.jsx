@@ -41,9 +41,9 @@ const Footer = () => (
             <Link href={"/program"} className="font-medium uppercase tracking-wider text-gray-500 hover:underline">
               Program
             </Link>
-            {/*<ul className="text-gray-600 leading-tight">*/}
-            {/*  {getProgramLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}*/}
-            {/*</ul>*/}
+            <ul className="text-gray-600 leading-tight">
+              {getProgramLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
+            </ul>
           </div>
           <div className="mt-8 sm:mt-0">
             <Link href={"/support"} className="font-medium uppercase tracking-wider text-gray-500 hover:underline">
@@ -77,10 +77,10 @@ const getConferenceLinks = () => [
 
 const getProgramLinks = () => [
   <FooterLink href={"/program"} label="Schedule" />,
-  // <FooterLink href={"/program"} hash="plenary" label="Plenary" />,
-  // <FooterLink href={"/program"} hash="tra" label="Track A: Computer and Communication Networks: Architecture, Protocols and Technologies" />,
-  // <FooterLink href={"/program"} hash="trb" label="Track B: Modeling of Distributed Systems and Networks" />,
-  // <FooterLink href={"/program"} hash="trc" label="Track C: Distributed Systems Applications" />,
+  <FooterLink href={"/program"} hash="plenary" label="Plenary" />,
+  <FooterLink href={"/program"} hash="tra" label="Track A: Computer and Communication Networks: Architecture, Protocols and Technologies" />,
+  <FooterLink href={"/program"} hash="trb" label="Track B: Modeling of Distributed Systems and Networks" />,
+  <FooterLink href={"/program"} hash="trc" label="Track C: Distributed Systems Applications" />,
 ];
 
 const getSupportLinks = () => [

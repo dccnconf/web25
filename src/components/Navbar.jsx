@@ -232,26 +232,26 @@ const ProgramMenu = ({onClick}) => (
       comment="General schedule of DCCN'2025 conference"
       onClick={onClick}
     />
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#plenary" icon={faStar} text="Plenary session"*/}
-    {/*  comment="Learn more about the plenary session, keynote speakers and presentations"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"*/}
-    {/*  comment="General sessions schedule for Computer and Communication Networks track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"*/}
-    {/*  comment="General sessions schedule for Analytical Modeling of Distributed Systems track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"*/}
-    {/*  comment="General sessions schedule for Distributed Systems Applications track"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#plenary" icon={faStar} text="Plenary session"
+      comment="Learn more about the plenary session, keynote speakers and presentations"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"
+      comment="General sessions schedule for Computer and Communication Networks track"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"
+      comment="General sessions schedule for Analytical Modeling of Distributed Systems track"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"
+      comment="General sessions schedule for Distributed Systems Applications track"
+      onClick={onClick}
+    />
   </>
 );
 

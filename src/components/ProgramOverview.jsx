@@ -13,6 +13,7 @@ import moment from "moment";
 import Link from "next/link";
 import VideoConfCard from "./VideoConfCard";
 import {getTrackTextColor} from "../libs/common/styling";
+import program from "../pages/program";
 
 const ProgramOverview = ({ program, tracks, className = "" }) => {
 
@@ -20,7 +21,7 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
     <div className={className}>
 
       {/* Navigation inside the program: */}
-      <div className="pb-8">
+      <div className="pb-8 border-b-2">
         <p className="mb-4 text-lg text-gray-700 leading-7">You may find these links useful:</p>
         <ul className="list-disc pl-4">
           <li>
@@ -39,52 +40,48 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
               - full conference program in PDF format
             </span>
           </li>
-          {/*<li>*/}
-          {/*  <Link href={"/program"} as="/program#plenary">*/}
-          {/*    <a className="text-blue-500 text-lg leading-7 hover:underline">*/}
-          {/*      <FontAwesomeIcon icon={faStar} className="mr-2 text-yellow-500" />*/}
-          {/*      <span>Plenary session program</span>*/}
-          {/*    </a>*/}
-          {/*  </Link>*/}
-          {/*</li>*/}
-          {/*{*/}
-          {/*  tracks && tracks.map((track, index) => (*/}
-          {/*    <li key={index}>*/}
-          {/*      <Link href={"/program"} as={`/program#${track.slug}`}>*/}
-          {/*        <a className="text-blue-500 text-lg leading-7 hover:underline">*/}
-          {/*          <FontAwesomeIcon icon={track.icon} className={`mr-2 ${getTrackTextColor(track, { heavy: true })}`} />*/}
-          {/*          <span>Track {track.letter}: {track.name}</span>*/}
-          {/*        </a>*/}
-          {/*      </Link>*/}
-          {/*    </li>*/}
-          {/*  ))*/}
-          {/*}*/}
+          <li>
+            <Link className="text-blue-500 text-lg leading-7 hover:underline" href={"/program"} as="/program#plenary">
+                <FontAwesomeIcon icon={faStar} className="mr-2 text-yellow-500" />
+                <span>Plenary session program</span>
+            </Link>
+          </li>
+          {
+            tracks && tracks.map((track, index) => (
+              <li key={index}>
+                <Link className="text-blue-500 text-lg leading-7 hover:underline" href={"/program"} as={`/program#${track.slug}`}>
+                    <FontAwesomeIcon icon={track.icon} className={`mr-2 ${getTrackTextColor(track, { heavy: true })}`} />
+                    <span>Track {track.letter}: {track.name}</span>
+                </Link>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
       {/* Tables per day */}
-      {/*<div>*/}
-      {/*  {*/}
-      {/*    program.days.map((progDay, index) => (*/}
-      {/*      <div key={index}>*/}
-      {/*        <h3 className="text-xl font-extrabold text-left text-indigo-600 mb-0 mt-12">*/}
-      {/*          <Moment format="DD MMM. YYYY (dddd)">{progDay.date}</Moment>*/}
-      {/*        </h3>*/}
-      {/*        {*/}
-      {/*          progDay.description && (*/}
-      {/*            <h4 className="text-lg font-extrabold text-gray-600 mt-0 mb-12">{progDay.description}</h4>*/}
-      {/*          )*/}
-      {/*        }*/}
-      {/*        <VideoConfCard*/}
-      {/*          className="my-8"*/}
-      {/*          videoHtml={progDay.online && progDay.video}*/}
-      {/*          links={(progDay.online && progDay.online.links) || []}*/}
-      {/*        />*/}
-      {/*        <ProgDayTable progDay={progDay} tracks={tracks} className="" />*/}
-      {/*      </div>*/}
-      {/*    ))*/}
-      {/*  }*/}
-      {/*</div>*/}
+      <div>
+        {
+          program.days.map((progDay, index) => (
+            <div key={index}>
+              <h3 className="text-xl font-extrabold text-left text-indigo-600 mb-0 mt-12">
+                <Moment format="DD MMM. YYYY (dddd)">{progDay.date}</Moment>
+              </h3>
+              {
+                progDay.description && (
+                  <h4 className="text-lg font-extrabold text-gray-600 mt-0 mb-12">{progDay.description}</h4>
+                )
+              }
+              <VideoConfCard
+                className="my-8"
+                videoHtml={progDay.online && progDay.video}
+                links={(progDay.online && progDay.online.links) || []}
+              />
+              <ProgDayTable progDay={progDay} tracks={tracks} className="" />
+            </div>
+          ))
+        }
+      </div>
     </div>
   )
 };
@@ -106,11 +103,12 @@ function ProgDayTable({progDay, tracks, className = ""} = {}) {
                   <>
                     <span className="block lg:hidden">Track {t.letter}</span>
                     <span className="hidden lg:block">Track {t.letter}: {t.name}</span>
-                    <span className="hidden lg:block">(Room {t.room})</span>
+                    {t.room[progDay.date] ?
+                      <span className="hidden lg:block">{t.room[progDay.date]}</span> : null}
                   </>
 
               </th>
-            )) :
+              )) :
               progDay.closing && <th className="w-6/7 lg:w-11/12 th pl-2">
                 <span className="block text-center">{progDay.tableTitle}</span>
               </th>
@@ -155,24 +153,23 @@ function ProgDayTable({progDay, tracks, className = ""} = {}) {
 
 function TrackSessionCell({ track, interval }) {
   const matchingSessions = interval.sessions.filter(s => s.track.slug === track.slug);
-  if (matchingSessions.length === 0)
-    return <td className="border border-gray-300" />
+  // if (matchingSessions.length === 0)
+  //   return <td className="border border-gray-300" />
   const session = matchingSessions[0];
   return (
     <td className="border border-gray-300 pr-2 text-gray-700 leading-tight font-medium">
       <div className="flex items-center">
         <div className="px-2">
           {
-            getSessionIcon(session)
+            session && getSessionIcon(session)
           }
         </div>
         <div className="font-medium">
           <div>
-            <Link href={"/program"} as={`/program#${session.slug}`}>
-              <a className="text-blue-500 hover:underline">
-                Session {session.name}
-              </a>
-            </Link>
+            { session && <Link className="text-blue-500 hover:underline" href={"/program"} as={`/program#${session.slug}`}>
+              Session {session.name}
+            </Link> }
+
           </div>
         </div>
       </div>
@@ -205,10 +202,8 @@ function SingleSessionCell({ interval, tracks, isPlenary = false } = {}) {
           {
             (isPlenary || interval.type === "plenary") && interval.type !== "break"
               ? (
-                <Link href={"/program"} as="/program#plenary">
-                  <a className="text-blue-500 hover:underline">
+                <Link className="text-blue-500 hover:underline" href={"/program"} as="/program#plenary">
                     {label}
-                  </a>
                 </Link>
               ) : (
                 <div>{label}</div>
