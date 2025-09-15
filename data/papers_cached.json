@@ -36,10 +36,7 @@
     "title": "A New Class of Codes with Error Localization: on improvement of decoding algorithms",
     "abstract": "This paper explores a novel reinterpretation of well-established cascade and generalized cascade coding structures, resulting in the development of a fundamentally new class of error localization codes (ELCs). The proposed constructon introduces a third constituent code responsible for localizing errors, which enables effective decoding with reduced complexity and improved performance. Three variations of the coding scheme are presented, including constructions with different outer code lengths and decoding strategies. Simulation results demonstrate that the proposed ELCs achieve near-maximum-likelihood performance while maintaining manageable decoding complexity. In particular, the use of short block codes and structured erasure patterns significantly improves the trade-off between reliability and computational efficiency. The paper concludes with a comparative analysis against polar and Reed\u2013Muller codes and outlines promising directions for further research, including soft decoding strategies, joint coding-modulation schemes, and enhancements to inner code robustness.",
     "authors": [
-      "Nikita Klyuev",
-      "Andrey Voloshin",
-      "Sergey Portnoy",
-      "Sergey Nikitin"
+      "Victor Zyablov", "Sergey Portnoy", "Sergey Nikitin", "Andrey Voloshin", "Nikita Klyuev"
     ]
   },
   {
@@ -112,7 +109,7 @@
     "title": "Routing in LEO Mega-Constellations with Dynamic Inter-Satellite Link Delays",
     "abstract": "This paper addresses the routing problem in a Low Earth Orbit (LEO) satellite constellation considering known delays on inter-satellite links. Two novel routing algorithms are proposed to minimize latency between any pair of satellites: a modified Dijkstra algorithm and a dynamic programming-based\r\nalgorithm. Experiments have shown that the dynamic programming-based algorithm is optimal in terms of computational complexity.",
     "authors": [
-      "Ruslan Smelyanskiy"
+      "M. V. Tiushev", "R. L. Smelyansky"
     ]
   },
   {
@@ -190,13 +187,13 @@
     ]
   },
   {
-    "id": 3300,
-    "title": "Detection of coronary artery stenosis using  artificial intelligence methods",
-    "abstract": "Coronary heart disease is a common cardiovascular disease, which is one of\r\n the causes of high mortality in the population. Accurate and timely diagnosis\r\n is crucial for treatment. In this study, a new algorithm for detecting coronary\r\n stenosis of the heart vessels was developed based on the YOLO8m detection\r\n model. A set of X\u2013ray images obtained by selection from video sequences\r\n of the results of performed angiography of the cardiac vessels was used to\r\n train the model. The proposed model demonstrated excellent processing speed\r\n and detection accuracy and achieved F1\u2013score detection accuracy of 98% and\r\n mAP=98.3%, surpassing a number of known results obtained by other researchers.\r\n The proposed stenosis detection algorithm represents a significant achievement\r\n in the field of cardiovascular imaging and computer image processing algorithms.",
+    "id": 3357,
+    "title": "Graph-based Model and Practical Algorithm for Combating Cyberattack Threats in DCCN",
+    "abstract": "Popular open-source frameworks are used today to combat attack threats in DCCNs automatically. However, they cannot visualize logical conditions in the representation of network protocol vulnerabilities in attacks such as ARP poisoning, DNS spoofing, and SYN flooding, and they do not support advanced types of communication such as wireless, vehicle, and tethering communications on networks. To cope with the above shortcomings, we present an AND/OR attack graph-based security model for the DCCNs able to model multiple attack types (e.g., spoofing, man-in-the-middle, among many others). A novel efficient algorithm is suggested to extract the most vulnerable attack paths from AND/OR attack graphs. Unlike previous heuristic pathfinding algorithms, the proposed algorithm works in polynomial time and efficiently handles the cycles of positive length. We demonstrate the efficiency of the proposed model and a novel algorithm on a testbed implementing a network architecture comprising IT and industrial components.",
     "authors": [
-      "Eugene Yu. Shchetinin",
-      "Leonid Sevastianov",
-      "Anastasiia Tiutiunnik"
+      "Eugene (Evgeni) Levner",
+      "Dmitry Tsadikovich",
+      "Vladimir Vishnevsky"
     ]
   },
   {
@@ -270,6 +267,16 @@
     "authors": [
       "Natalia Markovich",
       "Denis Leibman"
+    ]
+  },
+  {
+    "id": 3324,
+    "title": "A Production Inventory System with N-Policy and Enhanced Production Rate",
+    "abstract": "This paper investigates the role of N-policy in an (s, S) production inventory\r\nsystem with positive service times. Customer arrivals follow a Poisson Process,\r\nwhile service times and production rates are exponentially distributed. The\r\nservice mechanism operates under an N-policy, and to enhance production\r\nefficiency, the production rate increases when the number of customers exceeds\r\nN \u2212 1 and the inventory level falls below min{N, s}. The system is analyzed\r\nusing the Matrix Geometric method, and a necessary and sufficient condition\r\nfor system stability is established. Key performance measures are derived, and\r\na suitable cost function is developed to evaluate system efficiency.",
+    "authors": [
+      "Thresiamma N J",
+      "Salini S Nair",
+      "Jose K. P."
     ]
   },
   {
@@ -361,6 +368,7 @@
     "title": "\u0410\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 \u0431\u0435\u0441\u043a\u043e\u043d\u0435\u0447\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u043e\u0439 \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u043e\u0439 \u0421\u041c\u041e \u043f\u0440\u0438 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u0440\u0435\u0434\u043a\u0438\u0445 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u044b",
     "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f   \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u043d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u043c \u0447\u0438\u0441\u043b\u043e\u043c \u043a\u0430\u043d\u0430\u043b\u043e\u0432, \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u044e\u0442\u0441\u044f \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u043e\u0439. \u041e\u0442\u043b\u0438\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0442\u043e, \u0447\u0442\u043e \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u044b \u044d\u043a\u0441\u043f\u043e\u043d\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0437\u0430\u044f\u0432\u043a\u0438 \u043d\u0435 \u043c\u0435\u043d\u044f\u044e\u0442 \u0441\u0432\u043e\u0438 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u0434\u043e \u043e\u043a\u043e\u043d\u0447\u0430\u043d\u0438\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f. \u0422\u0430\u043a\u0438\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u043c, \u043f\u0440\u0438\u0431\u043e\u0440\u044b \u0432 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u043c\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u043c\u0438.\r\n\u0414\u043b\u044f \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f   \u043c\u0435\u0442\u043e\u0434 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u043f\u0440\u0435\u0434\u0435\u043b\u044c\u043d\u043e \u0440\u0435\u0434\u043a\u0438\u0445 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0439 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u044b",
     "authors": [
+      "A. Tarasenko",
       "Svetlana Moiseeva",
       "Evgeny Polin"
     ]
@@ -380,6 +388,7 @@
     "title": "Performance Analysis of High-altitute Plateforms using Mutli-server Retrial Queues",
     "abstract": "High-Altitude Platforms (HAPs) are an emerging class of stratospheric systems designed to provide telecommunications and other services from altitudes typically between 17 km and 25 km.\r\nHAPs can act as communication relays, connecting mobile networks to core networks. \r\n\r\nIn this study, we propose a two-class multi-server retrial queueing model to represent the behavior of HAPs. We analyze the probability that the system's customer population surpasses a large threshold and examine the conditions necessary for the model's stability.",
     "authors": [
+      "Raina Raj",
       "Ksenia Zhukova",
       "Ruslana Nekrasova",
       "Dharmaraja Selvamuthu"
@@ -448,6 +457,7 @@
       "Elizaveta Golos",
       "Irina Yartseva",
       "Yuliya Gaidamaka",
+      "Elizaveta Gaidamaka",
       "Konstantin Samouylov"
     ]
   },
@@ -476,7 +486,8 @@
     "abstract": "Tethered unmanned aerial platforms (tUAVs) possess significant advantages over autonomous drones, primarily due to their capability for prolonged continuous operation, making them suitable for diverse applications. Ensuring the reliability of such platforms is paramount, particularly in scenarios where satellite navigation signals are degraded. This study investigates a laser-based local navigation system (LNS) as a novel solution. This study investigates the reliability of such a LNS for tUAVs using risk tree construction and analysis methodology.",
     "authors": [
       "Nika Ivanova",
-      "Nikita Kalmykov"
+      "Nikita Kalmykov",
+      "Vladimir Vishnevsky"
     ]
   },
   {
@@ -581,12 +592,23 @@
     ]
   },
   {
+    "id": 3300,
+    "title": "Detection of coronary artery stenosis using  artificial intelligence methods",
+    "abstract": "Coronary heart disease is a common cardiovascular disease, which is one of\r\n the causes of high mortality in the population. Accurate and timely diagnosis\r\n is crucial for treatment. In this study, a new algorithm for detecting coronary\r\n stenosis of the heart vessels was developed based on the YOLO8m detection\r\n model. A set of X\u2013ray images obtained by selection from video sequences\r\n of the results of performed angiography of the cardiac vessels was used to\r\n train the model. The proposed model demonstrated excellent processing speed\r\n and detection accuracy and achieved F1\u2013score detection accuracy of 98% and\r\n mAP=98.3%, surpassing a number of known results obtained by other researchers.\r\n The proposed stenosis detection algorithm represents a significant achievement\r\n in the field of cardiovascular imaging and computer image processing algorithms.",
+    "authors": [
+      "Eugene Yu. Shchetinin",
+      "Leonid Sevastianov",
+      "Anastasiia Tiutiunnik"
+    ]
+  },
+  {
     "id": 3604,
     "title": "One Approach on Improved Communication Secrecy",
     "abstract": "We enhance wireless communication secrecy by embedding a novel fixed-weight masking layer into algebraic error-correcting codes, forcing any eavesdropper to solve a Nearest Codeword Problem with high-weight error while legal receivers remove the mask with a single XOR. We follow a formal channel model that distinguishes legal users from adversaries and show that the fixed-weight mask preserves structural secrecy even against passive eavesdropper attack. Closed-form equivocation bounds are derived. We define and prove the upper bound of the attacker's success probability. Our research confirms negligible secrecy-capacity loss and sub-\u00b5s encoding latency as well as DoS attack protection due to the nature of the design.",
     "authors": [
       "Andrey Tikhonyuk",
-      "Sergey Portnoy"
+      "Sergey Portnoy",
+      "Victor Zyablov"
     ]
   },
   {
@@ -658,9 +680,9 @@
     "title": "Dynamic Warehouse Workflow Optimization via Reinforcement Learning: Integrating Q-Learning and Priority-Based Routing",
     "abstract": "This paper presents the development of a workflow optimization algorithm for warehouse environments, based on reinforcement learning techniques. The objective is to improve the efficiency of operations such as order picking, routing, and storage by allowing the system to learn optimal strategies through interaction with its environment. This approach utilizes reward-based learning to dynamically adapt to variations in demand, warehouse layout, and resource availability. Experimental results demonstrate significant improvements in throughput and resource utilization compared to traditional heuristic methods, highlighting the potential of reinforcement learning for intelligent and adaptive warehouse management systems.",
     "authors": [
-      "Bienvenue N'dah MOUALE MOUTOUAMA",
-      "Hector Gibson Kinmanhon Houankpo",
-      "Dmitry Kozyrev"
+      "MoualeB.M.N.", "Hector Gibson Kinmanhon Houankpo", "Soro M.", "Dmitry Kozyrev"
+
+
     ]
   }
 ]
