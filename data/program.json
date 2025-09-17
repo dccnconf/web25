@@ -5,7 +5,17 @@
       "description": "Conference opening day and plenary session",
       "plenary": true,
       "online": {
-        "links": [],
+        "links": [
+          {
+            "text": "Telemost for plenary session",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/0407653598",
+            "disabled": false,
+            "track": {
+              "slug": "P.1"
+            }
+          }
+        ],
         "video": null
       },
       "intervals": [
@@ -91,7 +101,26 @@
       "date": "2025-09-23",
       "description": "Conference session",
       "online": {
-        "links": []
+        "links": [
+          {
+            "text": "Telemost for Track A (23.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/0082449062",
+            "disabled": false,
+            "track": {
+              "slug": "tra"
+            }
+          },
+          {
+            "text": "Telemost for Track B (23.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/8663828227",
+            "disabled": false,
+            "track": {
+              "slug": "trb"
+            }
+          }
+        ]
       },
       "intervals": [
         {
@@ -176,7 +205,26 @@
       "date": "2025-09-24",
       "description": "Conference session",
       "online": {
-        "links": []
+        "links": [
+          {
+            "text": "Telemost for Track A (24.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/9848704035",
+            "disabled": false,
+            "track": {
+              "slug": "tra"
+            }
+          },
+          {
+            "text": "Telemost for Track B (24.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/6061128440",
+            "disabled": false,
+            "track": {
+              "slug": "trb"
+            }
+          }
+        ]
       },
       "intervals": [
         {
@@ -265,7 +313,26 @@
       "date": "2025-09-25",
       "description": "Conference session, Round table and Conference closing day",
       "online": {
-        "links": [],
+        "links": [
+          {
+            "text": "Telemost for Track B (25.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/2958094152",
+            "disabled": false,
+            "track": {
+              "slug": "trb"
+            }
+          },
+          {
+            "text": "Telemost for Track C (25.09.2025)",
+            "type": "webinar",
+            "url": "https://telemost.yandex.ru/j/2505608780",
+            "disabled": false,
+            "track": {
+              "slug": "trc"
+            }
+          }
+        ],
         "video": null
       },
       "intervals": [
