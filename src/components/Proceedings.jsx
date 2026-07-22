@@ -5,8 +5,7 @@ export default function Proceedings() {
     <>
       <div className="md:leading-7 md:text-xl">
         <p className="">
-          We are pleased to announce that the DCCN 2025 post-proceedings book (LNCS, volume 13766) has been published by Springer Nature. The book is available online. The conference participants are granted the four weeks free online access to the e-book of the LNCS proceedings.
-          The CCIS post-proceedings book (vol. 1748) is currently being processed.
+          We are pleased to announce that the DCCN 2025 post-proceedings book (LNCS, volume 16378) has been published by Springer Nature. The book is available online. The conference participants are granted the four weeks free online access to the e-book of the LNCS proceedings.
         </p>
         <div className="flex mt-6">
           <div className="mr-5" style={{maxWidth: "140px", minWidth: "120px"}}>
@@ -14,12 +13,9 @@ export default function Proceedings() {
           </div>
           <div style={{wordBreak: "break-word"}}>
             <p className="font-semibold">
-              LNCS 13766
+              LNCS 16378
               <br />
-              <a className="text-blue-500" target="_blank" href="https://link.springer.com/book/10.1007/978-3-031-23207-7">https://link.springer.com/book/10.1007/978-3-031-23207-7</a>
-            </p>
-            <p className="mt-8">
-              The conference participants are granted the four weeks free online access to the e-book of the LNCS proceedings.
+              <a className="text-blue-500" target="_blank" href="https://link.springer.com/book/10.1007/978-3-032-23537-4">https://link.springer.com/book/10.1007/978-3-032-23537-4</a>
             </p>
           </div>
         </div>
